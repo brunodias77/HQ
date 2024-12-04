@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "hvrOwHnDmfVdDlNWjMxe5YXE38URAvkdh9UpfD3tbvs=",
+  "Source": "HQ.Api",
+  "BasePath": "_content/HQ.Api",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

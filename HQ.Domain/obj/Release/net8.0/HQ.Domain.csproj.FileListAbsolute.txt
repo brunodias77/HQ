@@ -1,0 +1,11 @@
+/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/HQ.Domain/bin/Release/net8.0/HQ.Domain.deps.json
+/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/HQ.Domain/bin/Release/net8.0/HQ.Domain.dll
+/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/HQ.Domain/bin/Release/net8.0/HQ.Domain.pdb
+/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/HQ.Domain/obj/Release/net8.0/HQ.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/HQ.Domain/obj/Release/net8.0/HQ.Domain.AssemblyInfoInputs.cache
+/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/HQ.Domain/obj/Release/net8.0/HQ.Domain.AssemblyInfo.cs
+/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/HQ.Domain/obj/Release/net8.0/HQ.Domain.csproj.CoreCompileInputs.cache
+/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/HQ.Domain/obj/Release/net8.0/HQ.Domain.dll
+/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/HQ.Domain/obj/Release/net8.0/refint/HQ.Domain.dll
+/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/HQ.Domain/obj/Release/net8.0/HQ.Domain.pdb
+/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/HQ.Domain/obj/Release/net8.0/ref/HQ.Domain.dll

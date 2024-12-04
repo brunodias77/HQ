@@ -1,0 +1,11 @@
+/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/out/HQ.Api
+/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/out/appsettings.Development.json
+/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/out/appsettings.json
+/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/out/HQ.Api.dll
+/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/out/HQ.Api.deps.json
+/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/out/HQ.Api.runtimeconfig.json
+/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/out/HQ.Api.pdb
+/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/out/Microsoft.OpenApi.dll
+/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/out/Swashbuckle.AspNetCore.Swagger.dll
+/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/out/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/out/Swashbuckle.AspNetCore.SwaggerUI.dll

@@ -1,0 +1,3 @@
+/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/out/HQ.Infra.dll
+/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/out/HQ.Infra.deps.json
+/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/out/HQ.Infra.pdb

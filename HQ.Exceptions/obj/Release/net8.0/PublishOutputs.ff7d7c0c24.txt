@@ -1,0 +1,3 @@
+/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/out/HQ.Exceptions.dll
+/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/out/HQ.Exceptions.deps.json
+/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/out/HQ.Exceptions.pdb

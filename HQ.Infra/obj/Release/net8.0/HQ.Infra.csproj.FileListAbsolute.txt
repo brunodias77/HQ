@@ -1,0 +1,11 @@
+/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/HQ.Infra/bin/Release/net8.0/HQ.Infra.deps.json
+/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/HQ.Infra/bin/Release/net8.0/HQ.Infra.dll
+/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/HQ.Infra/bin/Release/net8.0/HQ.Infra.pdb
+/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/HQ.Infra/obj/Release/net8.0/HQ.Infra.GeneratedMSBuildEditorConfig.editorconfig
+/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/HQ.Infra/obj/Release/net8.0/HQ.Infra.AssemblyInfoInputs.cache
+/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/HQ.Infra/obj/Release/net8.0/HQ.Infra.AssemblyInfo.cs
+/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/HQ.Infra/obj/Release/net8.0/HQ.Infra.csproj.CoreCompileInputs.cache
+/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/HQ.Infra/obj/Release/net8.0/HQ.Infra.dll
+/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/HQ.Infra/obj/Release/net8.0/refint/HQ.Infra.dll
+/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/HQ.Infra/obj/Release/net8.0/HQ.Infra.pdb
+/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/HQ.Infra/obj/Release/net8.0/ref/HQ.Infra.dll

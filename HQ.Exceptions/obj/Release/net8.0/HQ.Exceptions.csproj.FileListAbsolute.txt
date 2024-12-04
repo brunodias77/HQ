@@ -1,0 +1,11 @@
+/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/HQ.Exceptions/bin/Release/net8.0/HQ.Exceptions.deps.json
+/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/HQ.Exceptions/bin/Release/net8.0/HQ.Exceptions.dll
+/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/HQ.Exceptions/bin/Release/net8.0/HQ.Exceptions.pdb
+/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/HQ.Exceptions/obj/Release/net8.0/HQ.Exceptions.GeneratedMSBuildEditorConfig.editorconfig
+/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/HQ.Exceptions/obj/Release/net8.0/HQ.Exceptions.AssemblyInfoInputs.cache
+/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/HQ.Exceptions/obj/Release/net8.0/HQ.Exceptions.AssemblyInfo.cs
+/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/HQ.Exceptions/obj/Release/net8.0/HQ.Exceptions.csproj.CoreCompileInputs.cache
+/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/HQ.Exceptions/obj/Release/net8.0/HQ.Exceptions.dll
+/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/HQ.Exceptions/obj/Release/net8.0/refint/HQ.Exceptions.dll
+/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/HQ.Exceptions/obj/Release/net8.0/HQ.Exceptions.pdb
+/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/HQ.Exceptions/obj/Release/net8.0/ref/HQ.Exceptions.dll
