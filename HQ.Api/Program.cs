@@ -1,10 +1,17 @@
+using HQ.Application.Configurtations;
+using HQ.Infra.Configurations;
+using HQ.Infra.Extensions;
+using HQ.Infra.Migrations;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddInfrastructure(builder.Configuration);
+builder.Services.AddApplication(builder.Configuration);
+
+
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
@@ -22,4 +29,18 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+MigrateDatabase();
+
+
 app.Run();
+
+
+
+void MigrateDatabase()
+{
+    if (builder.Configuration.IsUnitTestEnvironment())
+        return;
+
+    var serviceScope = app.Services.GetRequiredService<IServiceScopeFactory>().CreateScope();
+    DataBaseMigration.Migrate(builder.Configuration.ConnectionString(), serviceScope.ServiceProvider);
+}

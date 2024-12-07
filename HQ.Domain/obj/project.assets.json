@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/HQ.Domain/HQ.Domain.csproj",
+      "projectUniqueName": "/home/brunodias/Documentos/Programacao/C#/Codigos/hiago_queiroz/backend/HQ/HQ.Domain/HQ.Domain.csproj",
       "projectName": "HQ.Domain",
-      "projectPath": "/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/HQ.Domain/HQ.Domain.csproj",
+      "projectPath": "/home/brunodias/Documentos/Programacao/C#/Codigos/hiago_queiroz/backend/HQ/HQ.Domain/HQ.Domain.csproj",
       "packagesPath": "/home/brunodias/.nuget/packages/",
-      "outputPath": "/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/HQ.Domain/obj/",
+      "outputPath": "/home/brunodias/Documentos/Programacao/C#/Codigos/hiago_queiroz/backend/HQ/HQ.Domain/obj/",
       "projectStyle": "PackageReference",
       "UsingMicrosoftNETSdk": false,
       "configFilePaths": [

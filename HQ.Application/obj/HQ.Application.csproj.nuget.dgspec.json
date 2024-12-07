@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/HQ.Application/HQ.Application.csproj": {}
+    "/home/brunodias/Documentos/Programacao/C#/Codigos/hiago_queiroz/backend/HQ/HQ.Application/HQ.Application.csproj": {}
   },
   "projects": {
-    "/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/HQ.Application/HQ.Application.csproj": {
+    "/home/brunodias/Documentos/Programacao/C#/Codigos/hiago_queiroz/backend/HQ/HQ.Application/HQ.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/HQ.Application/HQ.Application.csproj",
+        "projectUniqueName": "/home/brunodias/Documentos/Programacao/C#/Codigos/hiago_queiroz/backend/HQ/HQ.Application/HQ.Application.csproj",
         "projectName": "HQ.Application",
-        "projectPath": "/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/HQ.Application/HQ.Application.csproj",
+        "projectPath": "/home/brunodias/Documentos/Programacao/C#/Codigos/hiago_queiroz/backend/HQ/HQ.Application/HQ.Application.csproj",
         "packagesPath": "/home/brunodias/.nuget/packages/",
-        "outputPath": "/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/HQ.Application/obj/",
+        "outputPath": "/home/brunodias/Documentos/Programacao/C#/Codigos/hiago_queiroz/backend/HQ/HQ.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/brunodias/.nuget/NuGet/NuGet.Config"
@@ -37,6 +37,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

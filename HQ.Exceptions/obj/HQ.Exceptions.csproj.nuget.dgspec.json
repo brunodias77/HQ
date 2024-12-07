@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/HQ.Exceptions/HQ.Exceptions.csproj": {}
+    "/home/brunodias/Documentos/Programacao/C#/Codigos/hiago_queiroz/backend/HQ/HQ.Exceptions/HQ.Exceptions.csproj": {}
   },
   "projects": {
-    "/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/HQ.Exceptions/HQ.Exceptions.csproj": {
+    "/home/brunodias/Documentos/Programacao/C#/Codigos/hiago_queiroz/backend/HQ/HQ.Exceptions/HQ.Exceptions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/HQ.Exceptions/HQ.Exceptions.csproj",
+        "projectUniqueName": "/home/brunodias/Documentos/Programacao/C#/Codigos/hiago_queiroz/backend/HQ/HQ.Exceptions/HQ.Exceptions.csproj",
         "projectName": "HQ.Exceptions",
-        "projectPath": "/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/HQ.Exceptions/HQ.Exceptions.csproj",
+        "projectPath": "/home/brunodias/Documentos/Programacao/C#/Codigos/hiago_queiroz/backend/HQ/HQ.Exceptions/HQ.Exceptions.csproj",
         "packagesPath": "/home/brunodias/.nuget/packages/",
-        "outputPath": "/home/brunodias/Documentos/Programacao/C#/Codigos/HQ/HQ.Exceptions/obj/",
+        "outputPath": "/home/brunodias/Documentos/Programacao/C#/Codigos/hiago_queiroz/backend/HQ/HQ.Exceptions/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/brunodias/.nuget/NuGet/NuGet.Config"
