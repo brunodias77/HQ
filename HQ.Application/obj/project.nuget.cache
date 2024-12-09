@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "oWCIurseasdTkguaYFOEWVYHa+vNdqTXHzUOO6ZUK9FnpfzxJyKnvLTdcFcEe26GoqSmEYn/8sdEVqV9SVWffg==",
+  "dgSpecHash": "0UVfsjno+l4=",
   "success": true,
-  "projectFilePath": "/home/brunodias/Documentos/Programacao/C#/Codigos/hiago_queiroz/backend/HQ/HQ.Application/HQ.Application.csproj",
+  "projectFilePath": "/Users/brunodias/Documents/Programacao/C#/codigos/HQ/HQ.Application/HQ.Application.csproj",
   "expectedPackageFiles": [
-    "/home/brunodias/.nuget/packages/microsoft.extensions.configuration/8.0.0/microsoft.extensions.configuration.8.0.0.nupkg.sha512",
-    "/home/brunodias/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
-    "/home/brunodias/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.2/microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
-    "/home/brunodias/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+    "/Users/brunodias/.nuget/packages/microsoft.extensions.configuration/8.0.0/microsoft.extensions.configuration.8.0.0.nupkg.sha512",
+    "/Users/brunodias/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "/Users/brunodias/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.2/microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "/Users/brunodias/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512"
   ],
   "logs": []
 }

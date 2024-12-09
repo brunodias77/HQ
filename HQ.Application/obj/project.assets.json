@@ -206,20 +206,20 @@
     ]
   },
   "packageFolders": {
-    "/home/brunodias/.nuget/packages/": {}
+    "/Users/brunodias/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/brunodias/Documentos/Programacao/C#/Codigos/hiago_queiroz/backend/HQ/HQ.Application/HQ.Application.csproj",
+      "projectUniqueName": "/Users/brunodias/Documents/Programacao/C#/codigos/HQ/HQ.Application/HQ.Application.csproj",
       "projectName": "HQ.Application",
-      "projectPath": "/home/brunodias/Documentos/Programacao/C#/Codigos/hiago_queiroz/backend/HQ/HQ.Application/HQ.Application.csproj",
-      "packagesPath": "/home/brunodias/.nuget/packages/",
-      "outputPath": "/home/brunodias/Documentos/Programacao/C#/Codigos/hiago_queiroz/backend/HQ/HQ.Application/obj/",
+      "projectPath": "/Users/brunodias/Documents/Programacao/C#/codigos/HQ/HQ.Application/HQ.Application.csproj",
+      "packagesPath": "/Users/brunodias/.nuget/packages/",
+      "outputPath": "/Users/brunodias/Documents/Programacao/C#/codigos/HQ/HQ.Application/obj/",
       "projectStyle": "PackageReference",
       "UsingMicrosoftNETSdk": false,
       "configFilePaths": [
-        "/home/brunodias/.nuget/NuGet/NuGet.Config"
+        "/Users/brunodias/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -237,6 +237,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -268,7 +273,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/Users/brunodias/.dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

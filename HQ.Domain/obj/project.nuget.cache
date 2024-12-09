@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TRCw8r2a4cNTCHrbqzT9Qxl8L/TO5OIE0Yg3sST/5gX/phle4nhg9LVvzAcS/cZXrQBTNde76n66vsLRyL8+GQ==",
+  "dgSpecHash": "meb9cpkYMSI=",
   "success": true,
-  "projectFilePath": "/home/brunodias/Documentos/Programacao/C#/Codigos/hiago_queiroz/backend/HQ/HQ.Domain/HQ.Domain.csproj",
+  "projectFilePath": "/Users/brunodias/Documents/Programacao/C#/codigos/HQ/HQ.Domain/HQ.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

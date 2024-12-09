@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XPghUrQJFgj1sUcsSN6J38rbfkjmB6w2GhJ19QmK08fcosz4/i9yRSEaGXIGoIVW4gNJbH+dCpTjd9moNCha8w==",
+  "dgSpecHash": "3T6BJ1sxyMA=",
   "success": true,
-  "projectFilePath": "/home/brunodias/Documentos/Programacao/C#/Codigos/hiago_queiroz/backend/HQ/HQ.Exceptions/HQ.Exceptions.csproj",
+  "projectFilePath": "/Users/brunodias/Documents/Programacao/C#/codigos/HQ/HQ.Exceptions/HQ.Exceptions.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

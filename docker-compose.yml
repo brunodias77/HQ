@@ -1,11 +1,23 @@
 version: '3.8'
 
 services:
+  hq-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5000:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ConnectionStrings__Connection=Host=postgres;Port=5432;Database=HQ;Username=admin;Password=admin
+    depends_on:
+      - postgres
+
   postgres:
-    container_name: HQ
+    container_name: HQ-postgres
     image: postgres
     ports:
-      - 5432:5432
+      - "5432:5432"
     environment:
       - POSTGRES_USER=admin
       - POSTGRES_PASSWORD=admin
@@ -15,3 +27,23 @@ services:
 
 volumes:
   postgres_data:
+
+
+
+# version: '3.8'
+
+# services:
+#   postgres:
+#     container_name: HQ
+#     image: postgres
+#     ports:
+#       - 5432:5432
+#     environment:
+#       - POSTGRES_USER=admin
+#       - POSTGRES_PASSWORD=admin
+#       - POSTGRES_DB=HQ
+#     volumes:
+#       - postgres_data:/var/lib/postgresql/data
+
+# volumes:
+#   postgres_data:
