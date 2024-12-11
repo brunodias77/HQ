@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/brunodias/Documents/Programacao/C#/codigos/HQ/HQ.Domain/HQ.Domain.csproj": {}
+    "/home/bruno-dias/Documentos/PROGRAMACAO/CODIGOS/C#/HQ/HQ.Domain/HQ.Domain.csproj": {}
   },
   "projects": {
-    "/Users/brunodias/Documents/Programacao/C#/codigos/HQ/HQ.Domain/HQ.Domain.csproj": {
+    "/home/bruno-dias/Documentos/PROGRAMACAO/CODIGOS/C#/HQ/HQ.Domain/HQ.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/brunodias/Documents/Programacao/C#/codigos/HQ/HQ.Domain/HQ.Domain.csproj",
+        "projectUniqueName": "/home/bruno-dias/Documentos/PROGRAMACAO/CODIGOS/C#/HQ/HQ.Domain/HQ.Domain.csproj",
         "projectName": "HQ.Domain",
-        "projectPath": "/Users/brunodias/Documents/Programacao/C#/codigos/HQ/HQ.Domain/HQ.Domain.csproj",
-        "packagesPath": "/Users/brunodias/.nuget/packages/",
-        "outputPath": "/Users/brunodias/Documents/Programacao/C#/codigos/HQ/HQ.Domain/obj/",
+        "projectPath": "/home/bruno-dias/Documentos/PROGRAMACAO/CODIGOS/C#/HQ/HQ.Domain/HQ.Domain.csproj",
+        "packagesPath": "/home/bruno-dias/.nuget/packages/",
+        "outputPath": "/home/bruno-dias/Documentos/PROGRAMACAO/CODIGOS/C#/HQ/HQ.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/brunodias/.nuget/NuGet/NuGet.Config"
+          "/home/bruno-dias/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -32,11 +32,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -58,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

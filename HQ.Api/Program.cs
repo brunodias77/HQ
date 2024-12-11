@@ -5,6 +5,15 @@ using HQ.Infra.Migrations;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.WebHost.ConfigureKestrel(options =>
+{
+    options.ListenAnyIP(80); // Porta HTTP
+    options.ListenAnyIP(443, listenOptions => // Porta HTTPS
+    {
+        listenOptions.UseHttps("/https/cert.pfx", "certpassword");
+    });
+});
+
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();

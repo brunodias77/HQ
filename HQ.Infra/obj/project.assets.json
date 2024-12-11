@@ -3350,19 +3350,20 @@
     ]
   },
   "packageFolders": {
-    "/Users/brunodias/.nuget/packages/": {}
+    "/home/bruno-dias/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/brunodias/Documents/Programacao/C#/codigos/HQ/HQ.Infra/HQ.Infra.csproj",
+      "projectUniqueName": "/home/bruno-dias/Documentos/PROGRAMACAO/CODIGOS/C#/HQ/HQ.Infra/HQ.Infra.csproj",
       "projectName": "HQ.Infra",
-      "projectPath": "/Users/brunodias/Documents/Programacao/C#/codigos/HQ/HQ.Infra/HQ.Infra.csproj",
-      "packagesPath": "/Users/brunodias/.nuget/packages/",
-      "outputPath": "/Users/brunodias/Documents/Programacao/C#/codigos/HQ/HQ.Infra/obj/",
+      "projectPath": "/home/bruno-dias/Documentos/PROGRAMACAO/CODIGOS/C#/HQ/HQ.Infra/HQ.Infra.csproj",
+      "packagesPath": "/home/bruno-dias/.nuget/packages/",
+      "outputPath": "/home/bruno-dias/Documentos/PROGRAMACAO/CODIGOS/C#/HQ/HQ.Infra/obj/",
       "projectStyle": "PackageReference",
+      "UsingMicrosoftNETSdk": false,
       "configFilePaths": [
-        "/Users/brunodias/.nuget/NuGet/NuGet.Config"
+        "/home/bruno-dias/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -3374,8 +3375,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/brunodias/Documents/Programacao/C#/codigos/HQ/HQ.Domain/HQ.Domain.csproj": {
-              "projectPath": "/Users/brunodias/Documents/Programacao/C#/codigos/HQ/HQ.Domain/HQ.Domain.csproj"
+            "/home/bruno-dias/Documentos/PROGRAMACAO/CODIGOS/C#/HQ/HQ.Domain/HQ.Domain.csproj": {
+              "projectPath": "/home/bruno-dias/Documentos/PROGRAMACAO/CODIGOS/C#/HQ/HQ.Domain/HQ.Domain.csproj"
             }
           }
         }
@@ -3384,11 +3385,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -3440,7 +3436,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
