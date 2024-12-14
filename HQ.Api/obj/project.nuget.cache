@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "7J8qUlLc5fPtvclO4SQySba5QnBZohZzQ29+OC19JhMUUWe5b2XXhNeaJmL1m+28oK0yj8g3OpYmc3G85VeNNg==",
+  "dgSpecHash": "n6z6CBpzqbU=",
   "success": true,
   "projectFilePath": "/home/bruno-dias/Documentos/PROGRAMACAO/CODIGOS/C#/HQ/HQ.Api/HQ.Api.csproj",
   "expectedPackageFiles": [
+    "/home/bruno-dias/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
     "/home/bruno-dias/.nuget/packages/azure.core/1.38.0/azure.core.1.38.0.nupkg.sha512",
     "/home/bruno-dias/.nuget/packages/azure.identity/1.11.4/azure.identity.1.11.4.nupkg.sha512",
     "/home/bruno-dias/.nuget/packages/bcrypt.net-next/4.0.3/bcrypt.net-next.4.0.3.nupkg.sha512",
@@ -27,6 +28,7 @@
     "/home/bruno-dias/.nuget/packages/fluentmigrator.runner.snowflake/6.2.0/fluentmigrator.runner.snowflake.6.2.0.nupkg.sha512",
     "/home/bruno-dias/.nuget/packages/fluentmigrator.runner.sqlite/6.2.0/fluentmigrator.runner.sqlite.6.2.0.nupkg.sha512",
     "/home/bruno-dias/.nuget/packages/fluentmigrator.runner.sqlserver/6.2.0/fluentmigrator.runner.sqlserver.6.2.0.nupkg.sha512",
+    "/home/bruno-dias/.nuget/packages/fluentvalidation/11.11.0/fluentvalidation.11.11.0.nupkg.sha512",
     "/home/bruno-dias/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/home/bruno-dias/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/home/bruno-dias/.nuget/packages/microsoft.data.sqlclient/5.2.2/microsoft.data.sqlclient.5.2.2.nupkg.sha512",
@@ -40,6 +42,7 @@
     "/home/bruno-dias/.nuget/packages/microsoft.extensions.caching.memory/8.0.1/microsoft.extensions.caching.memory.8.0.1.nupkg.sha512",
     "/home/bruno-dias/.nuget/packages/microsoft.extensions.configuration/8.0.0/microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "/home/bruno-dias/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "/home/bruno-dias/.nuget/packages/microsoft.extensions.configuration.binder/8.0.2/microsoft.extensions.configuration.binder.8.0.2.nupkg.sha512",
     "/home/bruno-dias/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.1/microsoft.extensions.dependencyinjection.8.0.1.nupkg.sha512",
     "/home/bruno-dias/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.2/microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
     "/home/bruno-dias/.nuget/packages/microsoft.extensions.logging/8.0.1/microsoft.extensions.logging.8.0.1.nupkg.sha512",
