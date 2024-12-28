@@ -331,3 +331,4 @@
 /home/bruno-dias/Documentos/PROGRAMACAO/CODIGOS/C#/HQ/HQ.Api/bin/Debug/net8.0/AutoMapper.dll
 /home/bruno-dias/Documentos/PROGRAMACAO/CODIGOS/C#/HQ/HQ.Api/bin/Debug/net8.0/FluentValidation.dll
 /home/bruno-dias/Documentos/PROGRAMACAO/CODIGOS/C#/HQ/HQ.Api/bin/Debug/net8.0/Microsoft.Extensions.Configuration.Binder.dll
+/home/bruno-dias/Documentos/PROGRAMACAO/CODIGOS/C#/HQ/HQ.Api/bin/Debug/net8.0/QRCoder.dll

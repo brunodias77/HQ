@@ -1,4 +1,6 @@
+using HQ.Application.Services;
 using HQ.Application.UseCases.Users.Register;
+using HQ.Domain.Services;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -10,14 +12,18 @@ public static class DependencyInjectionExtension
     {
         AddUseCases(services);
         AddAutoMapper(services, configuration);
-
+        AddServices(services);
     }
 
     private static void AddUseCases(IServiceCollection services)
     {
         services.AddScoped<IRegisterUserUseCase, RegisterUserUseCase>();
     }
-    
+
+    private static void AddServices(IServiceCollection services)
+    {
+        services.AddScoped<IGenerateQrCodeService, GenerateQrCodeService>();
+    }
     
     private static void AddAutoMapper(IServiceCollection services, IConfiguration configuration)
     {

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+SFKTkC5S7GGmfH9WjtI0+CpBEF1erMIxdKMLLg7JSXH/vpNXffuif2JSTsoDabMpzIlrSXKr3BnVSqsr94xEQ==",
+  "dgSpecHash": "6hXMA1zFpuI=",
   "success": true,
   "projectFilePath": "/home/bruno-dias/Documentos/PROGRAMACAO/CODIGOS/C#/HQ/HQ.Application/HQ.Application.csproj",
   "expectedPackageFiles": [
@@ -10,7 +10,8 @@
     "/home/bruno-dias/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "/home/bruno-dias/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.2/microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
     "/home/bruno-dias/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
-    "/home/bruno-dias/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+    "/home/bruno-dias/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "/home/bruno-dias/.nuget/packages/qrcoder/1.6.0/qrcoder.1.6.0.nupkg.sha512"
   ],
   "logs": []
 }

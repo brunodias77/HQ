@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "15qqzdn4jNYZt8frCBKv/FO79jJaZDn1mqPlcElcCjBTtQ+gRkGKsO2BJ94h0LtWplzYdVIm9fhbb8DazRAKhQ==",
+  "dgSpecHash": "NpGTrrMm0MQ=",
   "success": true,
   "projectFilePath": "/home/bruno-dias/Documentos/PROGRAMACAO/CODIGOS/C#/HQ/HQ.Api/HQ.Api.csproj",
   "expectedPackageFiles": [
@@ -63,6 +63,7 @@
     "/home/bruno-dias/.nuget/packages/microsoft.sqlserver.server/1.0.0/microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "/home/bruno-dias/.nuget/packages/npgsql/8.0.6/npgsql.8.0.6.nupkg.sha512",
     "/home/bruno-dias/.nuget/packages/npgsql.entityframeworkcore.postgresql/8.0.11/npgsql.entityframeworkcore.postgresql.8.0.11.nupkg.sha512",
+    "/home/bruno-dias/.nuget/packages/qrcoder/1.6.0/qrcoder.1.6.0.nupkg.sha512",
     "/home/bruno-dias/.nuget/packages/swashbuckle.aspnetcore/6.6.2/swashbuckle.aspnetcore.6.6.2.nupkg.sha512",
     "/home/bruno-dias/.nuget/packages/swashbuckle.aspnetcore.swagger/6.6.2/swashbuckle.aspnetcore.swagger.6.6.2.nupkg.sha512",
     "/home/bruno-dias/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.6.2/swashbuckle.aspnetcore.swaggergen.6.6.2.nupkg.sha512",
