@@ -39,7 +39,6 @@ builder.Services.AddControllers();
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "HQ API", Version = "v1" });
-
     // Suporte a upload de arquivos no Swagger
     c.OperationFilter<FileUploadOperationFilter>();
 });
@@ -47,6 +46,7 @@ builder.Services.AddSwaggerGen(c =>
 var app = builder.Build();
 
 // Configurar arquivos estáticos (para servir imagens da pasta "Uploads")
+// Link https://localhost:7191/uploads/tampinhas.jpg
 app.UseStaticFiles(new StaticFileOptions
 {
     FileProvider = new PhysicalFileProvider(
@@ -73,7 +73,6 @@ MigrateDatabase();
 
 
 app.Run();
-
 
 
 void MigrateDatabase()

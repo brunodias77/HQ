@@ -8,6 +8,7 @@ public class Post : Entity
     public string Title { get; set; }
     public string Content { get; set; }
     public DateTime PublishedAt { get; set; }
+    public string ImageUrl { get; set; }
     public Guid UserId { get; set; } // Foreign Key
     public Guid CategoryId { get; set; } // Foreign Key
 

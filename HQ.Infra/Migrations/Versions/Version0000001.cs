@@ -7,7 +7,7 @@ public class Version0000001 : VersionBase
 {
     public override void Up()
     {
-      Execute.Sql("CREATE EXTENSION IF NOT EXISTS \"uuid-ossp\";");
+        Execute.Sql("CREATE EXTENSION IF NOT EXISTS \"uuid-ossp\";");
 
         // Users Table
         CreateTable("Users")
@@ -38,6 +38,7 @@ public class Version0000001 : VersionBase
             .WithColumn("Title").AsString(255).NotNullable()
             .WithColumn("Content").AsString(int.MaxValue).NotNullable()
             .WithColumn("PublishedAt").AsDateTime().NotNullable().WithDefaultValue(SystemMethods.CurrentUTCDateTime)
+            .WithColumn("ImageUrl").AsString(255).NotNullable()
             .WithColumn("UserID").AsGuid().NotNullable()
             .ForeignKey("FK_Posts_Users", "Users", "Id")
             .WithColumn("CategoryID").AsGuid().NotNullable()

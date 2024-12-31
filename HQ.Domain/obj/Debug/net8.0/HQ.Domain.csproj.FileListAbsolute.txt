@@ -34,3 +34,15 @@
 /home/bruno-dias/Documentos/PROGRAMACAO/CODIGOS/C#/HQ/HQ.Domain/obj/Debug/net8.0/refint/HQ.Domain.dll
 /home/bruno-dias/Documentos/PROGRAMACAO/CODIGOS/C#/HQ/HQ.Domain/obj/Debug/net8.0/HQ.Domain.pdb
 /home/bruno-dias/Documentos/PROGRAMACAO/CODIGOS/C#/HQ/HQ.Domain/obj/Debug/net8.0/ref/HQ.Domain.dll
+/Users/brunodias/Documents/Programacao/Codigos/C#/HQ/HQ.Domain/bin/Debug/net8.0/HQ.Domain.deps.json
+/Users/brunodias/Documents/Programacao/Codigos/C#/HQ/HQ.Domain/bin/Debug/net8.0/HQ.Domain.dll
+/Users/brunodias/Documents/Programacao/Codigos/C#/HQ/HQ.Domain/bin/Debug/net8.0/HQ.Domain.pdb
+/Users/brunodias/Documents/Programacao/Codigos/C#/HQ/HQ.Domain/obj/Debug/net8.0/HQ.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/brunodias/Documents/Programacao/Codigos/C#/HQ/HQ.Domain/obj/Debug/net8.0/HQ.Domain.AssemblyInfoInputs.cache
+/Users/brunodias/Documents/Programacao/Codigos/C#/HQ/HQ.Domain/obj/Debug/net8.0/HQ.Domain.AssemblyInfo.cs
+/Users/brunodias/Documents/Programacao/Codigos/C#/HQ/HQ.Domain/obj/Debug/net8.0/HQ.Domain.csproj.CoreCompileInputs.cache
+/Users/brunodias/Documents/Programacao/Codigos/C#/HQ/HQ.Domain/obj/Debug/net8.0/HQ.Domain.sourcelink.json
+/Users/brunodias/Documents/Programacao/Codigos/C#/HQ/HQ.Domain/obj/Debug/net8.0/HQ.Domain.dll
+/Users/brunodias/Documents/Programacao/Codigos/C#/HQ/HQ.Domain/obj/Debug/net8.0/refint/HQ.Domain.dll
+/Users/brunodias/Documents/Programacao/Codigos/C#/HQ/HQ.Domain/obj/Debug/net8.0/HQ.Domain.pdb
+/Users/brunodias/Documents/Programacao/Codigos/C#/HQ/HQ.Domain/obj/Debug/net8.0/ref/HQ.Domain.dll

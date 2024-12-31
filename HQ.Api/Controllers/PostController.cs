@@ -9,7 +9,7 @@ public class PostController : BaseController
 {
     [HttpPost("create/post")]
     [Consumes("multipart/form-data")]
-    public IActionResult createPost([FromForm] RequestCreatePostFormData request)
+    public IActionResult createPost([FromForm] RequestCreatePost request)
     {
         // Preciso salvar a url da foto do posto no banco de dados !!!
         
