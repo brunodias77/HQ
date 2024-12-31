@@ -1,6 +1,8 @@
 using System.Globalization;
 using HQ.Api.Filters;
+using HQ.Api.Tokens;
 using HQ.Application.Configurtations;
+using HQ.Domain.Security.Token;
 using HQ.Infra.Configurations;
 using HQ.Infra.Extensions;
 using HQ.Infra.Migrations;
@@ -23,6 +25,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddInfrastructure(builder.Configuration);
 builder.Services.AddApplication(builder.Configuration);
+builder.Services.AddScoped<ITokenProvider, HttpContextTokenValue>();
+builder.Services.AddHttpContextAccessor();
 builder.Services.AddMvc(options => options.Filters.Add(typeof(ExceptionFilter)));
 builder.Services.AddCors(options =>
 {
@@ -34,12 +38,10 @@ builder.Services.AddCors(options =>
     });
 });
 
-// builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "HQ API", Version = "v1" });
-    // Suporte a upload de arquivos no Swagger
     c.OperationFilter<FileUploadOperationFilter>();
 });
 

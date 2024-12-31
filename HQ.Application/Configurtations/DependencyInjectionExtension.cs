@@ -5,6 +5,7 @@ using HQ.Application.Dtos.Users.Requests;
 using HQ.Application.Dtos.Users.Responses;
 using HQ.Application.Services;
 using HQ.Application.UseCases.Donations.Generate.Pix;
+using HQ.Application.UseCases.Users.Login;
 using HQ.Application.UseCases.Users.Register;
 using HQ.Domain.Services;
 using Microsoft.Extensions.Configuration;
@@ -25,6 +26,7 @@ public static class DependencyInjectionExtension
     {
         services.AddScoped<IUseCase<RequestRegisterUserJson, ResponseRegisterUserJson>, RegisterUserUseCase>();
         services.AddScoped<IUseCase<RequestGeneratePixDonation, ResponseGeneratePixDonation>, GeneratePixDonationUseCase>();
+        services.AddScoped<IUseCase<RequestLoginUser, ResponseLoginUser>, LoginUserUseCase>();
     }
 
     private static void AddServices(IServiceCollection services)

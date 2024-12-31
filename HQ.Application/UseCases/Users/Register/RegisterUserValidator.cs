@@ -19,10 +19,10 @@ public class RegisterUserValidator : AbstractValidator<RequestRegisterUserJson>
             .NotEmpty()
             .WithMessage("O campo e-mail esta vazio !"); // Mensagem de erro caso o email esteja vazio.
 
-        // Regra para garantir que a senha tenha pelo menos 6 caracteres.
-        RuleFor(user => user.Password.Length)
-            .GreaterThanOrEqualTo(6)
-            .WithMessage("A senha deve ter no minimo 6 caracteres !"); // Mensagem de erro caso a senha seja curta demais.
+        RuleFor(user => user.Password)
+            .NotEmpty()
+            .MinimumLength(6)
+            .WithMessage("A senha deve ter no minimo 6 caracteres !");
 
         // Regra condicional para validar o formato do email se o campo não estiver vazio.
         When(user => !string.IsNullOrEmpty(user.Email), // Verifica se o email não está vazio.

@@ -28,8 +28,44 @@ public class CreatePostUseCase : IUseCase<RequestCreatePost, ResponseCreatePost>
 
         // Criar uma Instancia do objeto Post
 
-        var newPost = new Post();
-        // Salvar no banco de dados
+        var post = new Post
+        {
+            Id = Guid.NewGuid(),
+            Title = "Título do Post",
+            Content = "Conteúdo do Post",
+            PublishedAt = DateTime.UtcNow,
+            ImageUrl = "https://example.com/image.jpg",
+            UserId = Guid.NewGuid(), // ID do usuário associado
+            CategoryId = Guid.NewGuid(), // ID da categoria associada
+            User = new User
+            {
+                Id = Guid.NewGuid(),
+                Name = "Usuário Exemplo"
+            },
+            Category = new Category
+            {
+                Id = Guid.NewGuid(),
+                Name = "Categoria Exemplo"
+            },
+            Comments = new List<Comment>
+            {
+                new Comment
+                {
+                    Id = Guid.NewGuid(),
+                    Content = "Primeiro comentário",
+                    UserID = Guid.NewGuid(),
+                    CommentedAt = DateTime.UtcNow
+                }
+            },
+            PostTags = new List<PostTag>
+            {
+                new PostTag
+                {
+                    PostID = Guid.NewGuid(),
+                    TagID = Guid.NewGuid()
+                }
+            }
+        };
         throw new NotImplementedException();
     }
 }

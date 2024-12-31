@@ -5,5 +5,5 @@ namespace HQ.Application.Dtos.Users.Responses;
 public class ResponseRegisterUserJson
 {
     public string Name { get; set; } = string.Empty;
-    public ResponseTokenJson Tokens { get; set; } = default!;
+    public ResponseTokenJson Token { get; set; } = default!;
 }
