@@ -1,4 +1,10 @@
+using HQ.Application.Abstractions;
+using HQ.Application.Dtos.Donations.Requests;
+using HQ.Application.Dtos.Donations.Responses;
+using HQ.Application.Dtos.Users.Requests;
+using HQ.Application.Dtos.Users.Responses;
 using HQ.Application.Services;
+using HQ.Application.UseCases.Donations.Generate.Pix;
 using HQ.Application.UseCases.Users.Register;
 using HQ.Domain.Services;
 using Microsoft.Extensions.Configuration;
@@ -17,12 +23,14 @@ public static class DependencyInjectionExtension
 
     private static void AddUseCases(IServiceCollection services)
     {
-        services.AddScoped<IRegisterUserUseCase, RegisterUserUseCase>();
+        services.AddScoped<IUseCase<RequestRegisterUserJson, ResponseRegisterUserJson>, RegisterUserUseCase>();
+        services.AddScoped<IUseCase<RequestGeneratePixDonation, ResponseGeneratePixDonation>, GeneratePixDonationUseCase>();
     }
 
     private static void AddServices(IServiceCollection services)
     {
         services.AddScoped<IGenerateQrCodeService, GenerateQrCodeService>();
+        
     }
     
     private static void AddAutoMapper(IServiceCollection services, IConfiguration configuration)

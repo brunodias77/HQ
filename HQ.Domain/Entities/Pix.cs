@@ -99,4 +99,5 @@ public class Pix
 
             return crc.ToString("X4").ToUpper();
         }
+
 }

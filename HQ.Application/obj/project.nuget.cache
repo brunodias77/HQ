@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "1Id1yVV7C5sRa5Z+R3KK7BQZTQT2XXwpJS1++HKzUfvyDAj5e0qqrlzNOslZC0vBw5J7A07CydgdFZyr9Xkbhw==",
+  "dgSpecHash": "ft12Tbi7JG4=",
   "success": true,
   "projectFilePath": "/home/bruno-dias/Documentos/PROGRAMACAO/CODIGOS/C#/HQ/HQ.Application/HQ.Application.csproj",
   "expectedPackageFiles": [
@@ -11,7 +11,11 @@
     "/home/bruno-dias/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.2/microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
     "/home/bruno-dias/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
     "/home/bruno-dias/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
-    "/home/bruno-dias/.nuget/packages/qrcoder/1.6.0/qrcoder.1.6.0.nupkg.sha512"
+    "/home/bruno-dias/.nuget/packages/microsoft.openapi/1.6.22/microsoft.openapi.1.6.22.nupkg.sha512",
+    "/home/bruno-dias/.nuget/packages/qrcoder/1.6.0/qrcoder.1.6.0.nupkg.sha512",
+    "/home/bruno-dias/.nuget/packages/swashbuckle.aspnetcore.annotations/7.2.0/swashbuckle.aspnetcore.annotations.7.2.0.nupkg.sha512",
+    "/home/bruno-dias/.nuget/packages/swashbuckle.aspnetcore.swagger/7.2.0/swashbuckle.aspnetcore.swagger.7.2.0.nupkg.sha512",
+    "/home/bruno-dias/.nuget/packages/swashbuckle.aspnetcore.swaggergen/7.2.0/swashbuckle.aspnetcore.swaggergen.7.2.0.nupkg.sha512"
   ],
   "logs": []
 }

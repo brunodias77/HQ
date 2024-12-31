@@ -1,4 +1,6 @@
+using HQ.Application.Abstractions;
 using HQ.Application.Dtos.Donations.Requests;
+using HQ.Application.Dtos.Donations.Responses;
 using HQ.Domain.Entities;
 using HQ.Domain.Services;
 using Microsoft.AspNetCore.Mvc;
@@ -15,7 +17,7 @@ public class DonationController : BaseController
     private readonly IGenerateQrCodeService _generateQrCodeService;
 
     [HttpPost("pix")]
-    public async Task<IActionResult> GenerateQrCodePix(RequestPaymentPix request)
+    public IActionResult GenerateQrCodePix([FromServices] IUseCase<RequestGeneratePixDonation, ResponseGeneratePixDonation> useCase, [FromBody] RequestGeneratePixDonation request)
     {
         // Validação básica
         if (string.IsNullOrWhiteSpace(request.Key))
@@ -30,17 +32,8 @@ public class DonationController : BaseController
         {
             return BadRequest("A cidade do destinatário é obrigatória.");
         }
-        
-        var pix = new Pix
-        {
-            Key = request.Key,
-            Value = request.Value,
-            MerchantName = request.MerchantName,
-            MerchantCity = request.MerchantCity,
-            TxId = request.TxId
-        };
-        string pixCode = pix.GeneratePixCode();
-        return File(_generateQrCodeService.GenerateQRCode(pixCode), "image/png");
+        var result = useCase.Execute(request);
+        return File(result.Result.QrCodeBase64, "image/png");
     }
     
 }

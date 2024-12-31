@@ -4,6 +4,8 @@ using HQ.Application.Configurtations;
 using HQ.Infra.Configurations;
 using HQ.Infra.Extensions;
 using HQ.Infra.Migrations;
+using Microsoft.Extensions.FileProviders;
+using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -22,11 +24,35 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddInfrastructure(builder.Configuration);
 builder.Services.AddApplication(builder.Configuration);
 builder.Services.AddMvc(options => options.Filters.Add(typeof(ExceptionFilter)));
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAngularApp", policy =>
+    {
+        policy.WithOrigins("http://localhost:4200")
+            .AllowAnyHeader()
+            .AllowAnyMethod();
+    });
+});
 
+// builder.Services.AddSwaggerGen();
+builder.Services.AddControllers();
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "HQ API", Version = "v1" });
 
-builder.Services.AddSwaggerGen();
+    // Suporte a upload de arquivos no Swagger
+    c.OperationFilter<FileUploadOperationFilter>();
+});
 
 var app = builder.Build();
+
+// Configurar arquivos estáticos (para servir imagens da pasta "Uploads")
+app.UseStaticFiles(new StaticFileOptions
+{
+    FileProvider = new PhysicalFileProvider(
+        Path.Combine(Directory.GetCurrentDirectory(), "Uploads")),
+    RequestPath = "/uploads"
+});
 
 
 if (app.Environment.IsDevelopment() || app.Environment.EnvironmentName == "Production")
@@ -41,6 +67,7 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+app.UseCors("AllowAngularApp");
 
 MigrateDatabase();
 

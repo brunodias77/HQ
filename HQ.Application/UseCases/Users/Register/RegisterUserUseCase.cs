@@ -1,5 +1,6 @@
 using AutoMapper;
 using FluentValidation;
+using HQ.Application.Abstractions;
 using HQ.Application.Dtos.Users.Requests;
 using HQ.Application.Dtos.Users.Responses;
 using HQ.Application.Exceptions;
@@ -10,7 +11,7 @@ using HQ.Domain.Security.Token;
 
 namespace HQ.Application.UseCases.Users.Register;
 
-public class RegisterUserUseCase : IRegisterUserUseCase
+public class RegisterUserUseCase : IUseCase<RequestRegisterUserJson, ResponseRegisterUserJson>
 {
     public RegisterUserUseCase(IUserRepository userRepository, IPasswordEncripter passwordEncripter, IAccessTokenGenerator accessTokenGenerator, IMapper mapper)
     {
@@ -25,14 +26,14 @@ public class RegisterUserUseCase : IRegisterUserUseCase
     private readonly IAccessTokenGenerator _accessTokenGenerator;
     private readonly IMapper _mapper;
 
-    
-    public async  Task<ResponseRegisterUserJson> Execute(RequestRegisterUserJson request)
+    public async Task<ResponseRegisterUserJson> Execute(RequestRegisterUserJson request)
     {
         await Validate(request);
         var user = _mapper.Map<User>(request);
         throw new NotImplementedException();
         
     }
+
 
     private async Task Validate(RequestRegisterUserJson request)
     {
@@ -54,5 +55,7 @@ public class RegisterUserUseCase : IRegisterUserUseCase
             throw new ValidationErrorException(errorMessages);
         }
     }
-    
+
+
+
 }

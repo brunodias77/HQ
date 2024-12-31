@@ -1,0 +1,13 @@
+/home/bruno-dias/Documentos/PROGRAMACAO/CODIGOS/C#/HQ/out/HQ.Application.dll
+/home/bruno-dias/Documentos/PROGRAMACAO/CODIGOS/C#/HQ/out/HQ.Application.deps.json
+/home/bruno-dias/Documentos/PROGRAMACAO/CODIGOS/C#/HQ/out/HQ.Application.pdb
+/home/bruno-dias/Documentos/PROGRAMACAO/CODIGOS/C#/HQ/out/AutoMapper.dll
+/home/bruno-dias/Documentos/PROGRAMACAO/CODIGOS/C#/HQ/out/FluentValidation.dll
+/home/bruno-dias/Documentos/PROGRAMACAO/CODIGOS/C#/HQ/out/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/home/bruno-dias/Documentos/PROGRAMACAO/CODIGOS/C#/HQ/out/Microsoft.OpenApi.dll
+/home/bruno-dias/Documentos/PROGRAMACAO/CODIGOS/C#/HQ/out/QRCoder.dll
+/home/bruno-dias/Documentos/PROGRAMACAO/CODIGOS/C#/HQ/out/Swashbuckle.AspNetCore.Annotations.dll
+/home/bruno-dias/Documentos/PROGRAMACAO/CODIGOS/C#/HQ/out/Swashbuckle.AspNetCore.Swagger.dll
+/home/bruno-dias/Documentos/PROGRAMACAO/CODIGOS/C#/HQ/out/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/bruno-dias/Documentos/PROGRAMACAO/CODIGOS/C#/HQ/out/HQ.Domain.dll
+/home/bruno-dias/Documentos/PROGRAMACAO/CODIGOS/C#/HQ/out/HQ.Domain.pdb

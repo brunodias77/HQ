@@ -1,3 +1,4 @@
+using HQ.Application.Abstractions;
 using HQ.Application.Dtos.Users.Requests;
 using HQ.Application.Dtos.Users.Responses;
 using HQ.Application.UseCases.Users.Register;
@@ -27,7 +28,7 @@ public class UserController : BaseController
 
     [HttpPost("criar-conta")]
     [ProducesResponseType(typeof(ResponseRegisterUserJson), StatusCodes.Status201Created)]
-    public async Task<IActionResult> Register([FromServices] IRegisterUserUseCase useCase,
+    public async Task<IActionResult> Register([FromServices] IUseCase<RequestRegisterUserJson, ResponseRegisterUserJson> useCase,
         [FromBody] RequestRegisterUserJson request)
     {
         var result = await useCase.Execute(request);
