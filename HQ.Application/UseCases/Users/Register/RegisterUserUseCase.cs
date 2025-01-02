@@ -14,19 +14,21 @@ namespace HQ.Application.UseCases.Users.Register;
 
 public class RegisterUserUseCase : IUseCase<RequestRegisterUserJson, ResponseRegisterUserJson>
 {
-    public RegisterUserUseCase(IUserRepository userRepository, IPasswordEncripter passwordEncripter,
-        IAccessTokenGenerator accessTokenGenerator, IMapper mapper)
+    public RegisterUserUseCase(IUserRepository userRepository, IPasswordEncripter passwordEncripter, IAccessTokenGenerator accessTokenGenerator, IMapper mapper, IUnitOfWork unitOfWork)
     {
         _userRepository = userRepository;
         _passwordEncripter = passwordEncripter;
         _accessTokenGenerator = accessTokenGenerator;
         _mapper = mapper;
+        _unitOfWork = unitOfWork;
     }
+
 
     private readonly IUserRepository _userRepository;
     private readonly IPasswordEncripter _passwordEncripter;
     private readonly IAccessTokenGenerator _accessTokenGenerator;
     private readonly IMapper _mapper;
+    private readonly IUnitOfWork _unitOfWork;
 
     public async Task<ResponseRegisterUserJson> Execute(RequestRegisterUserJson request)
     {
@@ -35,6 +37,7 @@ public class RegisterUserUseCase : IUseCase<RequestRegisterUserJson, ResponseReg
         user.Password = _passwordEncripter.Encrypt(request.Password);
         var token = _accessTokenGenerator.Generate(user.Id);
         await _userRepository.AddAsync(user);
+        await _unitOfWork.Commit();
         var response = new ResponseRegisterUserJson()
         {
             Name = user.Name,

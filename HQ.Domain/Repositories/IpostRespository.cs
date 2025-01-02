@@ -1,6 +1,9 @@
+using HQ.Domain.Entities;
+
 namespace HQ.Domain.Repositories;
 
-public class IpostRespository
+public interface IPostRespository : IRepositoryBase<Post>
 {
-    
+    Task<IEnumerable<Post>?> GetAllPostsWithUsersAndCategories();
+
 }

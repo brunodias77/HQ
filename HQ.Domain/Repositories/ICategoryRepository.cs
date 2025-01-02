@@ -1,6 +1,9 @@
+using HQ.Domain.Entities;
+
 namespace HQ.Domain.Repositories;
 
-public class ICategoryRepository
+public interface ICategoryRepository : IRepositoryBase<Category>
 {
-    
+    Task<Category?> GetByNameAsync(string name);
+
 }

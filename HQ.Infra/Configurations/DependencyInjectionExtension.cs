@@ -50,6 +50,8 @@ public static class DependencyInjectionExtension
     {
         services.AddScoped(typeof(IRepositoryBase<>), typeof(RepositoryBase<>));
         services.AddScoped<IUserRepository, UserRepository>();
+        services.AddScoped<ICategoryRepository, CategoryRepository>();
+        services.AddScoped<IPostRespository, PostRepository>();
         services.AddScoped<IUnitOfWork, UnitOfWork>();
     }
 

@@ -1,10 +1,14 @@
 using HQ.Application.Abstractions;
 using HQ.Application.Dtos.Donations.Requests;
 using HQ.Application.Dtos.Donations.Responses;
+using HQ.Application.Dtos.Posts;
+using HQ.Application.Dtos.Posts.Responses;
 using HQ.Application.Dtos.Users.Requests;
 using HQ.Application.Dtos.Users.Responses;
 using HQ.Application.Services;
 using HQ.Application.UseCases.Donations.Generate.Pix;
+using HQ.Application.UseCases.Posts.Create;
+using HQ.Application.UseCases.Posts.Get_All_Post;
 using HQ.Application.UseCases.Users.Login;
 using HQ.Application.UseCases.Users.Register;
 using HQ.Domain.Services;
@@ -24,9 +28,11 @@ public static class DependencyInjectionExtension
 
     private static void AddUseCases(IServiceCollection services)
     {
+        services.AddScoped<IUseCase<RequestLoginUser, ResponseLoginUser>, LoginUserUseCase>();
         services.AddScoped<IUseCase<RequestRegisterUserJson, ResponseRegisterUserJson>, RegisterUserUseCase>();
         services.AddScoped<IUseCase<RequestGeneratePixDonation, ResponseGeneratePixDonation>, GeneratePixDonationUseCase>();
-        services.AddScoped<IUseCase<RequestLoginUser, ResponseLoginUser>, LoginUserUseCase>();
+        services.AddScoped<IUseCase<RequestCreatePost, ResponseCreatePost >, CreatePostUseCase >();
+        services.AddScoped<IUseCase<RequestGetAllPosts, ResponseGetAllPosts>, GetAllPostsUseCase>();
     }
 
     private static void AddServices(IServiceCollection services)

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/kKKSJWk0aEqXCZQCPkFq6x8p7W2I90rv8+mvvwfE5JticM6mVw2QiTKlvVqxjTenb9dg5u5wKWfhrMZU/wZLg==",
+  "dgSpecHash": "59vOBrAjoIUjPACq3KrXXbjPZ01w94JltmUMLgLbOtlsrXB4sFMX+j2QOiwZJIFpkFohITUHrXLvamRvV045MQ==",
   "success": true,
-  "projectFilePath": "/Users/brunodias/Documents/Programacao/Codigos/C#/HQ/HQ.Domain/HQ.Domain.csproj",
+  "projectFilePath": "/home/bruno-dias/Documentos/PROGRAMACAO/CODIGOS/C#/HQ/HQ.Domain/HQ.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,4 +1,5 @@
 using HQ.Api.Attributes;
+using HQ.Application.Abstractions;
 using HQ.Application.Dtos.Posts;
 using HQ.Application.Dtos.Posts.Responses;
 using HQ.Domain.Entities;
@@ -11,31 +12,20 @@ public class PostController : BaseController
     [HttpPost("new-post")]
     [Consumes("multipart/form-data")]
     [AuthenticatedUser]
-    public IActionResult createPost([FromForm] RequestCreatePost request)
+    public async Task<IActionResult> createPost([FromServices] IUseCase<RequestCreatePost, ResponseCreatePost> useCase, [FromForm] RequestCreatePost request)
     {
-        // Preciso salvar a url da foto do posto no banco de dados !!!
-
-        request.PublishedAt ??= DateTime.UtcNow;
-        if (request.Image == null || request.Image.Length == 0)
-        {
-            return BadRequest("Image is required.");
-        }
-
-        var uploadsDirectory = Path.Combine(Directory.GetCurrentDirectory(), "Uploads");
-        if (!Directory.Exists(uploadsDirectory))
-        {
-            Directory.CreateDirectory(uploadsDirectory);
-        }
-
-        var filePath = Path.Combine(uploadsDirectory, request.Image.FileName);
-        using (var stream = new FileStream(filePath, FileMode.Create))
-        {
-            request.Image.CopyTo(stream);
-        }
-
-        return Ok(new { Message = "Post created successfully!", FilePath = filePath });
+        var result = await useCase.Execute(request);  
+        return Ok(result);
     }
 
+    [HttpGet("all-posts")]
+    public async Task<IActionResult> GetAllPosts([FromServices] IUseCase<RequestGetAllPosts, ResponseGetAllPosts> useCase)
+    {
+        var result = await useCase.Execute(new RequestGetAllPosts());
+        return Ok(result);
+    }
+    
+    
     [HttpGet]
     public IActionResult GetPost()
     {

@@ -38,13 +38,13 @@ public class ApplicationDbContext : DbContext
         // PostTag Relationship
         modelBuilder.Entity<PostTag>(entity =>
         {
-            entity.HasKey(pt => new { pt.PostID, pt.TagID });
+            entity.HasKey(pt => new { pt.PostId, pt.TagId });
             entity.HasOne(pt => pt.Post)
                 .WithMany(p => p.PostTags)
-                .HasForeignKey(pt => pt.PostID);
+                .HasForeignKey(pt => pt.PostId);
             entity.HasOne(pt => pt.Tag)
                 .WithMany(t => t.PostTags)
-                .HasForeignKey(pt => pt.TagID);
+                .HasForeignKey(pt => pt.TagId);
         });
 
         // Relationships for Comment

@@ -39,32 +39,31 @@ public class Version0000001 : VersionBase
             .WithColumn("Content").AsString(int.MaxValue).NotNullable()
             .WithColumn("PublishedAt").AsDateTime().NotNullable().WithDefaultValue(SystemMethods.CurrentUTCDateTime)
             .WithColumn("ImageUrl").AsString(255).NotNullable()
-            .WithColumn("UserID").AsGuid().NotNullable()
+            .WithColumn("UserId").AsGuid().NotNullable()
             .ForeignKey("FK_Posts_Users", "Users", "Id")
-            .WithColumn("CategoryID").AsGuid().NotNullable()
+            .WithColumn("CategoryId").AsGuid().NotNullable()
             .ForeignKey("FK_Posts_Categories", "Categories", "Id");
 
         // Tags Table
         CreateTable("Tags")
             .WithColumn("Name").AsString(255).NotNullable();
 
-        // PostsTags Table
         Create.Table("PostsTags")
-            .WithColumn("PostID").AsGuid().NotNullable()
+            .WithColumn("PostId").AsGuid().NotNullable()
             .ForeignKey("FK_PostsTags_Posts", "Posts", "Id")
-            .WithColumn("TagID").AsGuid().NotNullable()
+            .WithColumn("TagId").AsGuid().NotNullable()
             .ForeignKey("FK_PostsTags_Tags", "Tags", "Id");
 
-        // Chave Primária Composta para PostsTags
-        Create.PrimaryKey("PK_PostsTags").OnTable("PostsTags").Columns("PostID", "TagID");
+        // Chave Primária Composta
+        Create.PrimaryKey("PK_PostsTags").OnTable("PostsTags").Columns("PostId", "TagId");
 
         // Comments Table
         CreateTable("Comments")
             .WithColumn("Content").AsString(1000).NotNullable()
             .WithColumn("CommentedAt").AsDateTime().NotNullable().WithDefaultValue(SystemMethods.CurrentUTCDateTime)
-            .WithColumn("PostID").AsGuid().NotNullable()
+            .WithColumn("PostId").AsGuid().NotNullable()
             .ForeignKey("FK_Comments_Posts", "Posts", "Id")
-            .WithColumn("UserID").AsGuid().NotNullable()
+            .WithColumn("UserId").AsGuid().NotNullable()
             .ForeignKey("FK_Comments_Users", "Users", "Id");
     }
 }
