@@ -23,6 +23,7 @@ public class GetAllPostsUseCase : IUseCase<RequestGetAllPosts, ResponseGetAllPos
             Title = post.Title,
             Content = post.Content,
             UserName = post.User.Name,
+            ImageUrl = post.ImageUrl,
             Category = post.Category.Name,
             PublicationDate = post.PublishedAt
         }).ToList();
