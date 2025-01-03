@@ -20,6 +20,9 @@ RUN dotnet publish HQ.Api/HQ.Api.csproj -c Release -o /out
 FROM mcr.microsoft.com/dotnet/aspnet:8.0
 WORKDIR /app
 
+# Criar o diretório Uploads para evitar erros
+RUN mkdir -p /app/Uploads
+
 # Copiar saída do build
 COPY --from=build /out .
 
@@ -29,6 +32,10 @@ COPY cert.pfx /https/cert.pfx
 # Variáveis de ambiente para o Kestrel
 ENV ASPNETCORE_Kestrel__Certificates__Default__Path=/https/cert.pfx
 ENV ASPNETCORE_Kestrel__Certificates__Default__Password=certpassword
+
+# Expor as portas padrão
+EXPOSE 8080
+EXPOSE 443
 
 ENTRYPOINT ["dotnet", "HQ.Api.dll"]
 
@@ -54,5 +61,18 @@ ENTRYPOINT ["dotnet", "HQ.Api.dll"]
 # # Etapa 2: Runtime
 # FROM mcr.microsoft.com/dotnet/aspnet:8.0
 # WORKDIR /app
+
+# # Copiar saída do build
 # COPY --from=build /out .
+
+# # Copiar o certificado para HTTPS
+# COPY cert.pfx /https/cert.pfx
+
+# # Variáveis de ambiente para o Kestrel
+# ENV ASPNETCORE_Kestrel__Certificates__Default__Path=/https/cert.pfx
+# ENV ASPNETCORE_Kestrel__Certificates__Default__Password=certpassword
+
 # ENTRYPOINT ["dotnet", "HQ.Api.dll"]
+
+
+

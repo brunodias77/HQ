@@ -41,7 +41,6 @@ namespace HQ.Infra.Repositories;
                 throw new ArgumentNullException(nameof(entity));
 
             await _dbSet.AddAsync(entity);
-            await _context.SaveChangesAsync();
         }
 
         public virtual async Task AddRangeAsync(IEnumerable<T> entities)
@@ -50,7 +49,6 @@ namespace HQ.Infra.Repositories;
                 throw new ArgumentNullException(nameof(entities));
 
             await _dbSet.AddRangeAsync(entities);
-            await _context.SaveChangesAsync();
         }
 
         public virtual async Task UpdateAsync(T entity)
@@ -59,7 +57,6 @@ namespace HQ.Infra.Repositories;
                 throw new ArgumentNullException(nameof(entity));
 
             _dbSet.Update(entity);
-            await _context.SaveChangesAsync();
         }
 
         public virtual async Task RemoveAsync(T entity)
@@ -68,7 +65,6 @@ namespace HQ.Infra.Repositories;
                 throw new ArgumentNullException(nameof(entity));
 
             _dbSet.Remove(entity);
-            await _context.SaveChangesAsync();
         }
 
         public virtual async Task RemoveByIdAsync(Guid id)

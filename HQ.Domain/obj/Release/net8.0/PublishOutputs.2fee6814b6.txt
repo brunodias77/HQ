@@ -1,0 +1,3 @@
+/home/bruno-dias/Documentos/PROGRAMACAO/CODIGOS/C#/HQ/out/HQ.Domain.dll
+/home/bruno-dias/Documentos/PROGRAMACAO/CODIGOS/C#/HQ/out/HQ.Domain.deps.json
+/home/bruno-dias/Documentos/PROGRAMACAO/CODIGOS/C#/HQ/out/HQ.Domain.pdb

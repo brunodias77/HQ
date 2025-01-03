@@ -19,7 +19,6 @@
       "packagesPath": "/home/bruno-dias/.nuget/packages/",
       "outputPath": "/home/bruno-dias/Documentos/PROGRAMACAO/CODIGOS/C#/HQ/HQ.Domain/obj/",
       "projectStyle": "PackageReference",
-      "UsingMicrosoftNETSdk": false,
       "configFilePaths": [
         "/home/bruno-dias/.nuget/NuGet/NuGet.Config"
       ],
@@ -60,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.111/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

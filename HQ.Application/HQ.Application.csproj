@@ -7,14 +7,25 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <Reference Include="Microsoft.AspNetCore.Http.Features">
+        <HintPath>..\..\..\..\..\..\..\..\usr\lib\dotnet\shared\Microsoft.AspNetCore.App\8.0.11\Microsoft.AspNetCore.Http.Features.dll</HintPath>
+      </Reference>
       <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
         <HintPath>..\..\..\..\..\..\..\..\usr\lib\dotnet\shared\Microsoft.AspNetCore.App\8.0.10\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
       </Reference>
     </ItemGroup>
 
     <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="13.0.1" />
+      <PackageReference Include="FluentValidation" Version="11.11.0" />
       <PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
       <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.2" />
+      <PackageReference Include="QRCoder" Version="1.6.0" />
+      <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="7.2.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\HQ.Domain\HQ.Domain.csproj" />
     </ItemGroup>
 
 </Project>

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "M/CGNsz3oOuP0799a26BNv3B1KR7YBfyILUdPzsqjGH0M9Jsz5fDuWAuMeKk9CM1GCJZ0VhcqQtV1TIxoog1IQ==",
+  "dgSpecHash": "1WrlObOzuRK34JylI3QewS9IkNZvL6kSKPwCK+drfTTJAV9wa8l0CjYCaHljA0oqaGZ9YBU4r5oB7w0by2xdRw==",
   "success": true,
   "projectFilePath": "/home/bruno-dias/Documentos/PROGRAMACAO/CODIGOS/C#/HQ/HQ.Infra/HQ.Infra.csproj",
   "expectedPackageFiles": [
@@ -38,6 +38,7 @@
     "/home/bruno-dias/.nuget/packages/microsoft.extensions.caching.abstractions/8.0.0/microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
     "/home/bruno-dias/.nuget/packages/microsoft.extensions.caching.memory/8.0.1/microsoft.extensions.caching.memory.8.0.1.nupkg.sha512",
     "/home/bruno-dias/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "/home/bruno-dias/.nuget/packages/microsoft.extensions.configuration.binder/8.0.2/microsoft.extensions.configuration.binder.8.0.2.nupkg.sha512",
     "/home/bruno-dias/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.1/microsoft.extensions.dependencyinjection.8.0.1.nupkg.sha512",
     "/home/bruno-dias/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.2/microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
     "/home/bruno-dias/.nuget/packages/microsoft.extensions.logging/8.0.1/microsoft.extensions.logging.8.0.1.nupkg.sha512",
